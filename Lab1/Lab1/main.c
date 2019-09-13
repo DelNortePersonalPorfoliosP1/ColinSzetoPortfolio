@@ -8,7 +8,12 @@
 
 #include <stdio.h>
 
+#include "Pythag.h"
+
+
 int main(int argc, const char * argv[]) {
- // comment change
+
+    Pythag();
     
+return 0;
 }

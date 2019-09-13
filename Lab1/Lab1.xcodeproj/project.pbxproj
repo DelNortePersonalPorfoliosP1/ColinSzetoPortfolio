@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		826C054C232BEB250049422A /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 826C054B232BEB250049422A /* main.c */; };
+		826C0554232BEB570049422A /* Pythag.c in Sources */ = {isa = PBXBuildFile; fileRef = 826C0553232BEB570049422A /* Pythag.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		826C0548232BEB250049422A /* Lab1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lab1; sourceTree = BUILT_PRODUCTS_DIR; };
 		826C054B232BEB250049422A /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		826C0552232BEB570049422A /* Pythag.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pythag.h; sourceTree = "<group>"; };
+		826C0553232BEB570049422A /* Pythag.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Pythag.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				826C054B232BEB250049422A /* main.c */,
+				826C0552232BEB570049422A /* Pythag.h */,
+				826C0553232BEB570049422A /* Pythag.c */,
 			);
 			path = Lab1;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				826C0554232BEB570049422A /* Pythag.c in Sources */,
 				826C054C232BEB250049422A /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
