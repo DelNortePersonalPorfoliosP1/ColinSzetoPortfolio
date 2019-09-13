@@ -14,6 +14,7 @@ int Pythag(void) {
     double side1;
     double side2;
     
+    printf("In this lab, we will be calculating the side lengths of a hypotonuse\n");//asking for side length 1
     printf("side1");//asking for side length 1
     scanf("%lf",&side1);
     
@@ -21,7 +22,7 @@ int Pythag(void) {
     scanf("%lf",&side2);
     
     double side3 = sqrt(side1*side1 + side2*side2); //computation of the hypotonuse (defining the side 3 is equal to the values of a^2 + b^2
-    printf ("the hypotenuse is %lf",side3);
+    printf ("the hypotenuse is %lf\n",side3);
     
     return 0;
 }

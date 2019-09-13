@@ -1,6 +1,6 @@
 //
 //  main.c
-//  Lab1
+//  NameHereLab1
 //
 //  Created by Szeto, Colin on 9/13/19.
 //  Copyright © 2019 Szeto, Colin. All rights reserved.
@@ -8,14 +8,8 @@
 
 #include <stdio.h>
 
-#include "Pythag.h"
-#include "TimeCon.h"
-
-
 int main(int argc, const char * argv[]) {
-
-    Pythag();
-    TimeCon();
-    
-return 0;
+    // insert code here...
+    printf("Hello, World!\n");
+    return 0;
 }
