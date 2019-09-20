@@ -12,8 +12,8 @@
 int histogram(void){
     
     //intitilizing the varibles we will be defining
-   /* double value1;
-    double value2;
+    //double value1;
+    /*double value2;
     double value3;
     double value4;
     double value5;
@@ -24,7 +24,9 @@ int histogram(void){
     double value10;*/
 
     float mark[9];
-
+    
+    double value0;
+    
 
 
     
@@ -34,9 +36,9 @@ int histogram(void){
     printf("=====================================\n");
     printf("|   PLEASE ENTER NUMBER)\n");
     
-    printf("proide number for value 1\n");
+    printf("proide number for value 0\n");
     scanf ("%f", &mark[0]);
-    printf("proide number for value 2\n");
+ /*   printf("proide number for value 2\n");
     scanf ("%f", &mark[1]);
     printf("proide number for value 3\n");
     scanf ("%f", &mark[2]);
@@ -54,10 +56,12 @@ int histogram(void){
     scanf ("%f", &mark[8]);
     printf("proide number for value 10\n");
     scanf ("%f", &mark[9]);
+    */
     
-    
-
-    
+    value0 = round(mark[0]);
+                   
+    printf("%lf",&value0);
+              
     
     return (0);
 }

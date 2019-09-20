@@ -12,8 +12,8 @@
 
 int main(void) {
 
-    menu();
-
+    //menu();
+    histogram();
            
     return 0;
 }
